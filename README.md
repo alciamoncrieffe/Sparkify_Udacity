@@ -47,6 +47,9 @@ from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
  As part of this study I trained 2 classification models, with cross validation and tuning of the hyperparameters. Of the two models tested, the tuned RandomForestClassifier performed the best with the best AUC scores producing less than 17% error on the 128MB mini dataset that was used. It had better precision, and achieved a higher level of accuracy faster, even before tuning, while LogisticRegression model required more tuning.
  
  The next step would be to deploy/train AWS or IBM cloud with the medium sparkify dataset to see if what impact a larger dataset would have to the model accuracy.
+ 
+## Acknowledgments
+https://shihaojran.com/distributed-machine-learning-using-pyspark/ - For accuracy metrics.
 
 ## Contributing
 
